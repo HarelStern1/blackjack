@@ -140,7 +140,9 @@ const App = () => {
 
   return (
     <div>
-      <h2 style={{ textAlign: "center" }}>{winnerMessage}</h2>
+      <h2 style={{ textAlign: "center", marginRight: "40px" }}>
+        {winnerMessage}
+      </h2>
       <Wrapper>
         {dealer.cards.map(({ card }, idx) => {
           const cardObj = { number: card.number, suit: card.suit };

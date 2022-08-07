@@ -7,8 +7,8 @@ const Card = ({ card, amount, isDouble }) => {
   return (
     <Wrapper amount={amount} isDouble={isDouble}>
       <Img
-        height="120px"
-        width="100px"
+        height="140px"
+        width="120px"
         src={cardToSvgMap[cardStr] || background}
       />
     </Wrapper>
